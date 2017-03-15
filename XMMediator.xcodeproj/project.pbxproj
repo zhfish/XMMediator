@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C629505E1E792378005F65EC /* URL+XMMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629505D1E792378005F65EC /* URL+XMMediator.swift */; };
+		C65E4AD71E6BC35500E09E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AD61E6BC35500E09E44 /* AppDelegate.swift */; };
+		C65E4AD91E6BC35500E09E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AD81E6BC35500E09E44 /* ViewController.swift */; };
+		C65E4ADC1E6BC35500E09E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65E4ADA1E6BC35500E09E44 /* Main.storyboard */; };
+		C65E4ADE1E6BC35500E09E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65E4ADD1E6BC35500E09E44 /* Assets.xcassets */; };
+		C65E4AE11E6BC35500E09E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65E4ADF1E6BC35500E09E44 /* LaunchScreen.storyboard */; };
+		C65E4AEA1E6BC37C00E09E44 /* XMMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AE91E6BC37C00E09E44 /* XMMediator.swift */; };
+		C65E4AF01E6BC48B00E09E44 /* XMMediator+A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AEF1E6BC48B00E09E44 /* XMMediator+A.swift */; };
+		C65E4AF21E6BC5D600E09E44 /* Target_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF11E6BC5D600E09E44 /* Target_A.swift */; };
+		C65E4AF41E6BC64400E09E44 /* A_viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF31E6BC64400E09E44 /* A_viewcontroller.swift */; };
+		C65E4AF61E6BE30C00E09E44 /* XMMediatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */; };
+		C65E4AF81E6BEFF200E09E44 /* XMMediator+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */; };
+		C65E4AFA1E6BF03B00E09E44 /* XMMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF91E6BF03B00E09E44 /* XMMediatorProtocol.swift */; };
+		C65E4AFC1E6C186300E09E44 /* XMMediator+Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AFB1E6C186300E09E44 /* XMMediator+Public.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C629505D1E792378005F65EC /* URL+XMMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+XMMediator.swift"; sourceTree = "<group>"; };
+		C65E4AD31E6BC35500E09E44 /* XMMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65E4AD61E6BC35500E09E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C65E4AD81E6BC35500E09E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C65E4ADB1E6BC35500E09E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C65E4ADD1E6BC35500E09E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C65E4AE01E6BC35500E09E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C65E4AE21E6BC35500E09E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65E4AE91E6BC37C00E09E44 /* XMMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediator.swift; sourceTree = "<group>"; };
+		C65E4AEF1E6BC48B00E09E44 /* XMMediator+A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+A.swift"; sourceTree = "<group>"; };
+		C65E4AF11E6BC5D600E09E44 /* Target_A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_A.swift; sourceTree = "<group>"; };
+		C65E4AF31E6BC64400E09E44 /* A_viewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A_viewcontroller.swift; sourceTree = "<group>"; };
+		C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediatorConfig.swift; sourceTree = "<group>"; };
+		C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Router.swift"; sourceTree = "<group>"; };
+		C65E4AF91E6BF03B00E09E44 /* XMMediatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediatorProtocol.swift; sourceTree = "<group>"; };
+		C65E4AFB1E6C186300E09E44 /* XMMediator+Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Public.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65E4AD01E6BC35500E09E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C65E4ACA1E6BC35500E09E44 = {
+			isa = PBXGroup;
+			children = (
+				C65E4AD51E6BC35500E09E44 /* XMMediator */,
+				C65E4AD41E6BC35500E09E44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C65E4AD41E6BC35500E09E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65E4AD31E6BC35500E09E44 /* XMMediator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65E4AD51E6BC35500E09E44 /* XMMediator */ = {
+			isa = PBXGroup;
+			children = (
+				C65E4AEB1E6BC45700E09E44 /* Categories */,
+				C65E4AED1E6BC45700E09E44 /* DemoModule */,
+				C65E4AE81E6BC36900E09E44 /* Sources */,
+				C65E4AD61E6BC35500E09E44 /* AppDelegate.swift */,
+				C65E4AD81E6BC35500E09E44 /* ViewController.swift */,
+				C65E4ADA1E6BC35500E09E44 /* Main.storyboard */,
+				C65E4ADD1E6BC35500E09E44 /* Assets.xcassets */,
+				C65E4ADF1E6BC35500E09E44 /* LaunchScreen.storyboard */,
+				C65E4AE21E6BC35500E09E44 /* Info.plist */,
+			);
+			path = XMMediator;
+			sourceTree = "<group>";
+		};
+		C65E4AE81E6BC36900E09E44 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C65E4AE91E6BC37C00E09E44 /* XMMediator.swift */,
+				C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */,
+				C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */,
+				C65E4AF91E6BF03B00E09E44 /* XMMediatorProtocol.swift */,
+				C65E4AFB1E6C186300E09E44 /* XMMediator+Public.swift */,
+				C629505D1E792378005F65EC /* URL+XMMediator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C65E4AEB1E6BC45700E09E44 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C65E4AEC1E6BC45700E09E44 /* ModuleA */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C65E4AEC1E6BC45700E09E44 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				C65E4AEF1E6BC48B00E09E44 /* XMMediator+A.swift */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		C65E4AED1E6BC45700E09E44 /* DemoModule */ = {
+			isa = PBXGroup;
+			children = (
+				C65E4AEE1E6BC45700E09E44 /* Actions */,
+				C65E4AF31E6BC64400E09E44 /* A_viewcontroller.swift */,
+			);
+			path = DemoModule;
+			sourceTree = "<group>";
+		};
+		C65E4AEE1E6BC45700E09E44 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				C65E4AF11E6BC5D600E09E44 /* Target_A.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65E4AD21E6BC35500E09E44 /* XMMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65E4AE51E6BC35500E09E44 /* Build configuration list for PBXNativeTarget "XMMediator" */;
+			buildPhases = (
+				C65E4ACF1E6BC35500E09E44 /* Sources */,
+				C65E4AD01E6BC35500E09E44 /* Frameworks */,
+				C65E4AD11E6BC35500E09E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMMediator;
+			productName = XMMediator;
+			productReference = C65E4AD31E6BC35500E09E44 /* XMMediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C65E4ACB1E6BC35500E09E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "天星宿命";
+				TargetAttributes = {
+					C65E4AD21E6BC35500E09E44 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = STXE6X32T7;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C65E4ACE1E6BC35500E09E44 /* Build configuration list for PBXProject "XMMediator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C65E4ACA1E6BC35500E09E44;
+			productRefGroup = C65E4AD41E6BC35500E09E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65E4AD21E6BC35500E09E44 /* XMMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65E4AD11E6BC35500E09E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65E4AE11E6BC35500E09E44 /* LaunchScreen.storyboard in Resources */,
+				C65E4ADE1E6BC35500E09E44 /* Assets.xcassets in Resources */,
+				C65E4ADC1E6BC35500E09E44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65E4ACF1E6BC35500E09E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65E4AFA1E6BF03B00E09E44 /* XMMediatorProtocol.swift in Sources */,
+				C629505E1E792378005F65EC /* URL+XMMediator.swift in Sources */,
+				C65E4AF21E6BC5D600E09E44 /* Target_A.swift in Sources */,
+				C65E4AFC1E6C186300E09E44 /* XMMediator+Public.swift in Sources */,
+				C65E4AF61E6BE30C00E09E44 /* XMMediatorConfig.swift in Sources */,
+				C65E4AF81E6BEFF200E09E44 /* XMMediator+Router.swift in Sources */,
+				C65E4AEA1E6BC37C00E09E44 /* XMMediator.swift in Sources */,
+				C65E4AF41E6BC64400E09E44 /* A_viewcontroller.swift in Sources */,
+				C65E4AD91E6BC35500E09E44 /* ViewController.swift in Sources */,
+				C65E4AD71E6BC35500E09E44 /* AppDelegate.swift in Sources */,
+				C65E4AF01E6BC48B00E09E44 /* XMMediator+A.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C65E4ADA1E6BC35500E09E44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65E4ADB1E6BC35500E09E44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C65E4ADF1E6BC35500E09E44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65E4AE01E6BC35500E09E44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C65E4AE31E6BC35500E09E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C65E4AE41E6BC35500E09E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C65E4AE61E6BC35500E09E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = STXE6X32T7;
+				INFOPLIST_FILE = XMMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhfish.XMMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C65E4AE71E6BC35500E09E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = STXE6X32T7;
+				INFOPLIST_FILE = XMMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhfish.XMMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65E4ACE1E6BC35500E09E44 /* Build configuration list for PBXProject "XMMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65E4AE31E6BC35500E09E44 /* Debug */,
+				C65E4AE41E6BC35500E09E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65E4AE51E6BC35500E09E44 /* Build configuration list for PBXNativeTarget "XMMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65E4AE61E6BC35500E09E44 /* Debug */,
+				C65E4AE71E6BC35500E09E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C65E4ACB1E6BC35500E09E44 /* Project object */;
+}
