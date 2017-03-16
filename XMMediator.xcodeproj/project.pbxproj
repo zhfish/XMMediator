@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4199E4C5226616020EF589 /* Pods_XMMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9350855B166B76BD44A79D /* Pods_XMMediator.framework */; };
 		C629505E1E792378005F65EC /* URL+XMMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629505D1E792378005F65EC /* URL+XMMediator.swift */; };
+		C62950621E7AB999005F65EC /* XMMediator+B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62950611E7AB999005F65EC /* XMMediator+B.swift */; };
+		C62950641E7ABA67005F65EC /* Target_B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62950631E7ABA67005F65EC /* Target_B.swift */; };
+		C62950661E7AC630005F65EC /* rule.json in Resources */ = {isa = PBXBuildFile; fileRef = C62950651E7AC630005F65EC /* rule.json */; };
 		C65E4AD71E6BC35500E09E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AD61E6BC35500E09E44 /* AppDelegate.swift */; };
 		C65E4AD91E6BC35500E09E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AD81E6BC35500E09E44 /* ViewController.swift */; };
 		C65E4ADC1E6BC35500E09E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65E4ADA1E6BC35500E09E44 /* Main.storyboard */; };
@@ -19,12 +23,15 @@
 		C65E4AF41E6BC64400E09E44 /* A_viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF31E6BC64400E09E44 /* A_viewcontroller.swift */; };
 		C65E4AF61E6BE30C00E09E44 /* XMMediatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */; };
 		C65E4AF81E6BEFF200E09E44 /* XMMediator+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */; };
-		C65E4AFA1E6BF03B00E09E44 /* XMMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF91E6BF03B00E09E44 /* XMMediatorProtocol.swift */; };
-		C65E4AFC1E6C186300E09E44 /* XMMediator+Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AFB1E6C186300E09E44 /* XMMediator+Public.swift */; };
+		C65E4AFC1E6C186300E09E44 /* XMMediator+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AFB1E6C186300E09E44 /* XMMediator+Shared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67287235F28FAE67AEFBDFCF /* Pods-XMMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMMediator/Pods-XMMediator.release.xcconfig"; sourceTree = "<group>"; };
 		C629505D1E792378005F65EC /* URL+XMMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+XMMediator.swift"; sourceTree = "<group>"; };
+		C62950611E7AB999005F65EC /* XMMediator+B.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XMMediator+B.swift"; path = "XMMediator/Categories/ModuleB/XMMediator+B.swift"; sourceTree = SOURCE_ROOT; };
+		C62950631E7ABA67005F65EC /* Target_B.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_B.swift; sourceTree = "<group>"; };
+		C62950651E7AC630005F65EC /* rule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rule.json; sourceTree = "<group>"; };
 		C65E4AD31E6BC35500E09E44 /* XMMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65E4AD61E6BC35500E09E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C65E4AD81E6BC35500E09E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,8 +45,9 @@
 		C65E4AF31E6BC64400E09E44 /* A_viewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A_viewcontroller.swift; sourceTree = "<group>"; };
 		C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediatorConfig.swift; sourceTree = "<group>"; };
 		C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Router.swift"; sourceTree = "<group>"; };
-		C65E4AF91E6BF03B00E09E44 /* XMMediatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediatorProtocol.swift; sourceTree = "<group>"; };
-		C65E4AFB1E6C186300E09E44 /* XMMediator+Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Public.swift"; sourceTree = "<group>"; };
+		C65E4AFB1E6C186300E09E44 /* XMMediator+Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Shared.swift"; sourceTree = "<group>"; };
+		EC9350855B166B76BD44A79D /* Pods_XMMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10322EB4B8E27DAD960BE47 /* Pods-XMMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMMediator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMMediator/Pods-XMMediator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4199E4C5226616020EF589 /* Pods_XMMediator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		130633F1C7A466AD4EA41F46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F10322EB4B8E27DAD960BE47 /* Pods-XMMediator.debug.xcconfig */,
+				67287235F28FAE67AEFBDFCF /* Pods-XMMediator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C65E4ACA1E6BC35500E09E44 = {
 			isa = PBXGroup;
 			children = (
 				C65E4AD51E6BC35500E09E44 /* XMMediator */,
 				C65E4AD41E6BC35500E09E44 /* Products */,
+				130633F1C7A466AD4EA41F46 /* Pods */,
+				C6B5AE6513FB08260F8B7207 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +101,7 @@
 				C65E4ADD1E6BC35500E09E44 /* Assets.xcassets */,
 				C65E4ADF1E6BC35500E09E44 /* LaunchScreen.storyboard */,
 				C65E4AE21E6BC35500E09E44 /* Info.plist */,
+				C62950651E7AC630005F65EC /* rule.json */,
 			);
 			path = XMMediator;
 			sourceTree = "<group>";
@@ -91,8 +112,7 @@
 				C65E4AE91E6BC37C00E09E44 /* XMMediator.swift */,
 				C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */,
 				C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */,
-				C65E4AF91E6BF03B00E09E44 /* XMMediatorProtocol.swift */,
-				C65E4AFB1E6C186300E09E44 /* XMMediator+Public.swift */,
+				C65E4AFB1E6C186300E09E44 /* XMMediator+Shared.swift */,
 				C629505D1E792378005F65EC /* URL+XMMediator.swift */,
 			);
 			path = Sources;
@@ -110,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				C65E4AEF1E6BC48B00E09E44 /* XMMediator+A.swift */,
+				C62950611E7AB999005F65EC /* XMMediator+B.swift */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
@@ -127,8 +148,17 @@
 			isa = PBXGroup;
 			children = (
 				C65E4AF11E6BC5D600E09E44 /* Target_A.swift */,
+				C62950631E7ABA67005F65EC /* Target_B.swift */,
 			);
 			path = Actions;
+			sourceTree = "<group>";
+		};
+		C6B5AE6513FB08260F8B7207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9350855B166B76BD44A79D /* Pods_XMMediator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C65E4AE51E6BC35500E09E44 /* Build configuration list for PBXNativeTarget "XMMediator" */;
 			buildPhases = (
+				7CB38EEF89F504D9CCE5264B /* [CP] Check Pods Manifest.lock */,
 				C65E4ACF1E6BC35500E09E44 /* Sources */,
 				C65E4AD01E6BC35500E09E44 /* Frameworks */,
 				C65E4AD11E6BC35500E09E44 /* Resources */,
+				260E8C4E753394BF650BABE0 /* [CP] Embed Pods Frameworks */,
+				958FFCCBF498B7F9FC65EF54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65E4AE11E6BC35500E09E44 /* LaunchScreen.storyboard in Resources */,
+				C62950661E7AC630005F65EC /* rule.json in Resources */,
 				C65E4ADE1E6BC35500E09E44 /* Assets.xcassets in Resources */,
 				C65E4ADC1E6BC35500E09E44 /* Main.storyboard in Resources */,
 			);
@@ -200,18 +234,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		260E8C4E753394BF650BABE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMMediator/Pods-XMMediator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB38EEF89F504D9CCE5264B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		958FFCCBF498B7F9FC65EF54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMMediator/Pods-XMMediator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C65E4ACF1E6BC35500E09E44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65E4AFA1E6BF03B00E09E44 /* XMMediatorProtocol.swift in Sources */,
 				C629505E1E792378005F65EC /* URL+XMMediator.swift in Sources */,
+				C62950641E7ABA67005F65EC /* Target_B.swift in Sources */,
 				C65E4AF21E6BC5D600E09E44 /* Target_A.swift in Sources */,
-				C65E4AFC1E6C186300E09E44 /* XMMediator+Public.swift in Sources */,
+				C65E4AFC1E6C186300E09E44 /* XMMediator+Shared.swift in Sources */,
 				C65E4AF61E6BE30C00E09E44 /* XMMediatorConfig.swift in Sources */,
 				C65E4AF81E6BEFF200E09E44 /* XMMediator+Router.swift in Sources */,
 				C65E4AEA1E6BC37C00E09E44 /* XMMediator.swift in Sources */,
+				C62950621E7AB999005F65EC /* XMMediator+B.swift in Sources */,
 				C65E4AF41E6BC64400E09E44 /* A_viewcontroller.swift in Sources */,
 				C65E4AD91E6BC35500E09E44 /* ViewController.swift in Sources */,
 				C65E4AD71E6BC35500E09E44 /* AppDelegate.swift in Sources */,
@@ -334,6 +417,7 @@
 		};
 		C65E4AE61E6BC35500E09E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F10322EB4B8E27DAD960BE47 /* Pods-XMMediator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = STXE6X32T7;
@@ -347,6 +431,7 @@
 		};
 		C65E4AE71E6BC35500E09E44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67287235F28FAE67AEFBDFCF /* Pods-XMMediator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = STXE6X32T7;

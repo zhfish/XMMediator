@@ -7,8 +7,8 @@
 //
 import Foundation
 
-public class XMMediator : XMMediatorConfigProtocol {
-    
+public class XMMediator {
+
     /// 单例
     public static let shared: XMMediator = {
         let instance = XMMediator()
@@ -22,19 +22,13 @@ public class XMMediator : XMMediatorConfigProtocol {
     private var targetCache : Dictionary<String, Any>
     
     /// 配置
-    var config : XMMediatorConfig {
-        didSet {
-            updateConfig()
-        }
-    }
+    var config : XMMediatorConfig
     
     /// 初始化
     private init() {
         namespace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
         targetCache = [String:Any]()
         config = XMMediatorConfig()
-        config.delegete = self
-        updateConfig()
     }
     
     ///  本地组件调用入口
@@ -45,7 +39,7 @@ public class XMMediator : XMMediatorConfigProtocol {
     ///   - params: 传递的参数
     ///   - shouldCacheTarget: 是否缓存Target实例
     /// - Returns: 返回值，如果没有返回值，则返回nil
-    func performTarget(with targetName: String, actionName: String, params: Dictionary<String,Any>?, shouldCacheTarget: Bool) -> Any! {
+    func performWith(targetName: String, actionName: String, params: Dictionary<String,Any>?, shouldCacheTarget: Bool) -> Any! {
         
         let targetString = "Target_\(targetName)"
         let actionString = "Action_\(actionName):"
@@ -68,8 +62,8 @@ public class XMMediator : XMMediatorConfigProtocol {
             clearTargetCache(with: targetString)
             return nil
         }
-        
-        return target!.perform(action, with: params).takeUnretainedValue()
+        let result = target!.perform(action, with: params)
+        return result!.takeUnretainedValue()
     }
     
     /// 清除单个Target缓存
@@ -84,12 +78,6 @@ public class XMMediator : XMMediatorConfigProtocol {
     func clearTargetCacheWithAll() {
         targetCache.removeAll()
     }
-    
-    /// 刷新配置
-    func updateConfig() {
-        
-    }
-    
     
 
 }

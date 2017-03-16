@@ -1,0 +1,13 @@
+{
+    "schemes": [
+                "xm",
+                "xms"
+                ],
+    "default": "deny",
+    "targets": {
+        "A": [
+              "badge"
+              ],
+        "B": []
+    }
+}

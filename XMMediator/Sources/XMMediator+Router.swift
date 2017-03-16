@@ -17,7 +17,7 @@ public extension XMMediator {
     /// - Parameters:
     ///   - url: 规则：scheme://[token]@[target]/[action]?[params]
     ///          URL例子: myapp://token@targetA/actionB?id=1234
-    /// - Returns: 返回值，如果没有返回值，则返回nil
+    /// - Returns: 如果没有返回值，则返回nil
     func openURL(with urlString:String) -> Any? {
         return openURL(with: urlString, isVerify: true)
     }
@@ -28,11 +28,23 @@ public extension XMMediator {
     ///   - url: 规则：scheme://[token]@[target]/[action]?[params]
     ///          URL例子: myapp://token@targetA/actionB?id=1234
     ///   - isVerify: 使用规则检查
-    /// - Returns: 返回值，如果没有返回值，则返回nil
+    /// - Returns: 如果没有返回值，则返回nil
     func openURL(with urlString:String, isVerify:Bool) -> Any? {
-        return nil
+        guard let url = URL(string: urlString) else {
+            return false
+        }
+        
+        guard isVerify && validationRule(URL: url) else {
+            return false
+        }
+        
+        return performWith(targetName: url.xm_target!, actionName: url.xm_action!, params: url.xm_params, shouldCacheTarget: false)
     }
     
+    /// 远程调用规则检查
+    ///
+    /// - Parameter urlString: url字符串
+    /// - Returns: 返回布尔值，表示是否可以远程调用
     func canOpenURL(with urlString:String) -> Bool {
         guard let url = URL(string: urlString) else {
             return false
@@ -42,25 +54,69 @@ public extension XMMediator {
     }
 
     
+    /// 验证规则
+    ///
+    /// - Parameter url: url类
+    /// - Returns: 返回布尔值
     private func validationRule(URL url:URL) -> Bool {
         //判断token
-        if config.isURLTokenVerifySkip == false {
-            guard let token = url.user else {
-                return false
-            }
-            guard token != config.URLToken else {
-                return false
-            }
+        guard config.isURLTokenVerifySkip == true ||
+              url.xm_token == config.URLToken  else {
+            return false
         }
         
-        //判断scheme
+        guard config.isURLRuleVerifySkip == false else {
+            return true
+        }
+        
+        guard let rule = config.URLRouteRule else {
+            return false
+        }
+        
         guard let scheme = url.scheme else {
             return false
         }
         
+        guard rule.schemes.contains(scheme) else {
+            return false
+        }
         
+        guard let target = url.xm_target else {
+            return false
+        }
+        guard let action = url.xm_action else {
+            return false
+        }
+
+        let target_array = rule.targets[target]
+        var action_find = false
+        if target_array != nil {
+            if target_array!.count == 0 {
+                action_find = true
+            }
+            else {
+                action_find = target_array!.contains(action)
+
+            }
+        }
+        
+        switch rule.defaultRule {
+        case "allow":
+            guard target_array == nil ||
+                action_find == false else {
+                return false
+            }
+            break
+        case "deny":
+            guard target_array != nil &&
+                action_find == true else {
+                    return false
+            }
+            break
+        default:
+            return false
+        }
+        
+        return true
     }
-    
-
-
 }

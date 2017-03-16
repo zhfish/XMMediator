@@ -17,4 +17,12 @@ class Target_A : NSObject{
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "A")
         return vc
     }
+    
+    func Action_badge(_ params: Dictionary<String, Any>?) -> NSNumber {
+        guard let fake = params?["fake"] as? String else {
+            return 520
+        }
+        
+        return Int(fake)!as NSNumber
+    }
 }
