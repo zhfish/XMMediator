@@ -18,8 +18,8 @@ before_install:
   - pod install
 
 script: 
-  - xctool -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -configuration Debug ONLY_ACTIVE_ARCH=NO
-  - xctool -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -configuration Release ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -configuration Debug ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -configuration Release ONLY_ACTIVE_ARCH=NO
 
 notifications:
   email: false
