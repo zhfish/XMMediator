@@ -1,5 +1,5 @@
 # XMMediator
-============
+---- 
 [![CocoaPods](https://img.shields.io/cocoapods/v/XMMediator.svg)](https://github.com/zhfish/XMMediator)
 [![Build Status](https://travis-ci.org/zhfish/XMMediator.svg?branch=master)](https://travis-ci.org/zhfish/XMMediator) 
 ## 概述
