@@ -4,7 +4,8 @@
 基于此，添加了带规则的URLRoute方式，保证不会被外部随意调用，也免去了需要注册的麻烦
 ## 集成
 ### source
-直接把Sources目录拖入工程即可  
+直接把Sources目录拖入工程  
+需要第三方类库 ObjectMapper
 ### cocoapods
 coming soon
 ## 使用
