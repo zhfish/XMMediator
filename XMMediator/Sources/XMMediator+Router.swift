@@ -10,7 +10,7 @@ import Foundation
 
 
 // MARK: - 路由支持扩展
-public extension XMMediator {
+extension XMMediator {
     
     /// 远程调用入口(有规则检查)
     ///
@@ -18,7 +18,7 @@ public extension XMMediator {
     ///   - url: 规则：scheme://[token]@[target]/[action]?[params]
     ///          URL例子: myapp://token@targetA/actionB?id=1234
     /// - Returns: 如果没有返回值，则返回nil
-    func openURL(with urlString:String) -> Any? {
+    public func openURL(with urlString:String) -> Any? {
         return openURL(with: urlString, isVerify: true)
     }
     
@@ -29,7 +29,7 @@ public extension XMMediator {
     ///          URL例子: myapp://token@targetA/actionB?id=1234
     ///   - isVerify: 使用规则检查
     /// - Returns: 如果没有返回值，则返回nil
-    func openURL(with urlString:String, isVerify:Bool) -> Any? {
+    public func openURL(with urlString:String, isVerify:Bool) -> Any? {
         guard let url = URL(string: urlString) else {
             return false
         }
@@ -45,7 +45,7 @@ public extension XMMediator {
     ///
     /// - Parameter urlString: url字符串
     /// - Returns: 返回布尔值，表示是否可以远程调用
-    func canOpenURL(with urlString:String) -> Bool {
+    public func canOpenURL(with urlString:String) -> Bool {
         guard let url = URL(string: urlString) else {
             return false
         }
@@ -60,7 +60,7 @@ public extension XMMediator {
     /// - Returns: 返回布尔值
     private func validationRule(URL url:URL) -> Bool {
         //判断token
-        guard config.isURLTokenVerifySkip == true ||
+        guard config.isURLTokenVerifySkip == true ,
               url.xm_token == config.URLToken  else {
             return false
         }
@@ -102,15 +102,13 @@ public extension XMMediator {
         
         switch rule.defaultRule {
         case "allow":
-            guard target_array == nil ||
-                action_find == false else {
+            guard action_find == false else {
                 return false
             }
             break
         case "deny":
-            guard target_array != nil &&
-                action_find == true else {
-                    return false
+            guard action_find == true else {
+                return false
             }
             break
         default:

@@ -22,7 +22,7 @@ public class XMMediator {
     private var targetCache : Dictionary<String, Any>
     
     /// 配置
-    var config : XMMediatorConfig
+    public var config : XMMediatorConfig
     
     /// 初始化
     private init() {
@@ -39,7 +39,7 @@ public class XMMediator {
     ///   - params: 传递的参数
     ///   - shouldCacheTarget: 是否缓存Target实例
     /// - Returns: 返回值，如果没有返回值，则返回nil
-    func performWith(targetName: String, actionName: String, params: Dictionary<String,Any>?, shouldCacheTarget: Bool) -> Any! {
+    public func performWith(targetName: String, actionName: String, params: Dictionary<String,Any>?, shouldCacheTarget: Bool) -> Any! {
         
         let targetString = "Target_\(targetName)"
         let actionString = "Action_\(actionName):"
@@ -69,13 +69,13 @@ public class XMMediator {
     /// 清除单个Target缓存
     ///
     /// - Parameter targetName: 调用的类名
-    func clearTargetCache(with targetName: String) {
+    public func clearTargetCache(with targetName: String) {
         let targetString = "Target_\(targetName)"
         targetCache.removeValue(forKey: targetString)
     }
     
     /// 清除所有Target缓存
-    func clearTargetCacheWithAll() {
+    public func clearTargetCacheWithAll() {
         targetCache.removeAll()
     }
     

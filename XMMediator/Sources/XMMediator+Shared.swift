@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - 单例支持扩展
-public extension XMMediator {
+extension XMMediator {
     
     /// 配置
     public static var config : XMMediatorConfig {
