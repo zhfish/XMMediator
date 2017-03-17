@@ -10,7 +10,7 @@
 直接把Sources目录拖入工程  
 需要第三方类库 ObjectMapper
 ### cocoapods
-coming soon
+`pod 'XMMediator'`
 ## 使用
 ### 初始化
 如果不用URLRoute方式，不用任何初始化
