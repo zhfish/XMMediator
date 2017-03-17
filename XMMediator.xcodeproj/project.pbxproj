@@ -8,30 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1B4199E4C5226616020EF589 /* Pods_XMMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9350855B166B76BD44A79D /* Pods_XMMediator.framework */; };
-		C629505E1E792378005F65EC /* URL+XMMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629505D1E792378005F65EC /* URL+XMMediator.swift */; };
 		C62950621E7AB999005F65EC /* XMMediator+B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62950611E7AB999005F65EC /* XMMediator+B.swift */; };
 		C62950641E7ABA67005F65EC /* Target_B.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62950631E7ABA67005F65EC /* Target_B.swift */; };
 		C62950661E7AC630005F65EC /* rule.json in Resources */ = {isa = PBXBuildFile; fileRef = C62950651E7AC630005F65EC /* rule.json */; };
+		C629506D1E7BB0B0005F65EC /* URL+XMMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62950681E7BB0B0005F65EC /* URL+XMMediator.swift */; };
+		C629506E1E7BB0B0005F65EC /* XMMediator+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62950691E7BB0B0005F65EC /* XMMediator+Router.swift */; };
+		C629506F1E7BB0B0005F65EC /* XMMediator+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629506A1E7BB0B0005F65EC /* XMMediator+Shared.swift */; };
+		C62950701E7BB0B0005F65EC /* XMMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629506B1E7BB0B0005F65EC /* XMMediator.swift */; };
+		C62950711E7BB0B0005F65EC /* XMMediatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629506C1E7BB0B0005F65EC /* XMMediatorConfig.swift */; };
 		C65E4AD71E6BC35500E09E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AD61E6BC35500E09E44 /* AppDelegate.swift */; };
 		C65E4AD91E6BC35500E09E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AD81E6BC35500E09E44 /* ViewController.swift */; };
 		C65E4ADC1E6BC35500E09E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65E4ADA1E6BC35500E09E44 /* Main.storyboard */; };
 		C65E4ADE1E6BC35500E09E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65E4ADD1E6BC35500E09E44 /* Assets.xcassets */; };
 		C65E4AE11E6BC35500E09E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65E4ADF1E6BC35500E09E44 /* LaunchScreen.storyboard */; };
-		C65E4AEA1E6BC37C00E09E44 /* XMMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AE91E6BC37C00E09E44 /* XMMediator.swift */; };
 		C65E4AF01E6BC48B00E09E44 /* XMMediator+A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AEF1E6BC48B00E09E44 /* XMMediator+A.swift */; };
 		C65E4AF21E6BC5D600E09E44 /* Target_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF11E6BC5D600E09E44 /* Target_A.swift */; };
 		C65E4AF41E6BC64400E09E44 /* A_viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF31E6BC64400E09E44 /* A_viewcontroller.swift */; };
-		C65E4AF61E6BE30C00E09E44 /* XMMediatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */; };
-		C65E4AF81E6BEFF200E09E44 /* XMMediator+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */; };
-		C65E4AFC1E6C186300E09E44 /* XMMediator+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65E4AFB1E6C186300E09E44 /* XMMediator+Shared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67287235F28FAE67AEFBDFCF /* Pods-XMMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMMediator/Pods-XMMediator.release.xcconfig"; sourceTree = "<group>"; };
-		C629505D1E792378005F65EC /* URL+XMMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+XMMediator.swift"; sourceTree = "<group>"; };
 		C62950611E7AB999005F65EC /* XMMediator+B.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XMMediator+B.swift"; path = "XMMediator/Categories/ModuleB/XMMediator+B.swift"; sourceTree = SOURCE_ROOT; };
 		C62950631E7ABA67005F65EC /* Target_B.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_B.swift; sourceTree = "<group>"; };
 		C62950651E7AC630005F65EC /* rule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rule.json; sourceTree = "<group>"; };
+		C62950681E7BB0B0005F65EC /* URL+XMMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+XMMediator.swift"; sourceTree = "<group>"; };
+		C62950691E7BB0B0005F65EC /* XMMediator+Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Router.swift"; sourceTree = "<group>"; };
+		C629506A1E7BB0B0005F65EC /* XMMediator+Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Shared.swift"; sourceTree = "<group>"; };
+		C629506B1E7BB0B0005F65EC /* XMMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediator.swift; sourceTree = "<group>"; };
+		C629506C1E7BB0B0005F65EC /* XMMediatorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediatorConfig.swift; sourceTree = "<group>"; };
 		C65E4AD31E6BC35500E09E44 /* XMMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65E4AD61E6BC35500E09E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C65E4AD81E6BC35500E09E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,13 +43,9 @@
 		C65E4ADD1E6BC35500E09E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C65E4AE01E6BC35500E09E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C65E4AE21E6BC35500E09E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C65E4AE91E6BC37C00E09E44 /* XMMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediator.swift; sourceTree = "<group>"; };
 		C65E4AEF1E6BC48B00E09E44 /* XMMediator+A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+A.swift"; sourceTree = "<group>"; };
 		C65E4AF11E6BC5D600E09E44 /* Target_A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_A.swift; sourceTree = "<group>"; };
 		C65E4AF31E6BC64400E09E44 /* A_viewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A_viewcontroller.swift; sourceTree = "<group>"; };
-		C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMMediatorConfig.swift; sourceTree = "<group>"; };
-		C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Router.swift"; sourceTree = "<group>"; };
-		C65E4AFB1E6C186300E09E44 /* XMMediator+Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMMediator+Shared.swift"; sourceTree = "<group>"; };
 		EC9350855B166B76BD44A79D /* Pods_XMMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10322EB4B8E27DAD960BE47 /* Pods-XMMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMMediator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMMediator/Pods-XMMediator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +71,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C62950671E7BB0B0005F65EC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C62950681E7BB0B0005F65EC /* URL+XMMediator.swift */,
+				C62950691E7BB0B0005F65EC /* XMMediator+Router.swift */,
+				C629506A1E7BB0B0005F65EC /* XMMediator+Shared.swift */,
+				C629506B1E7BB0B0005F65EC /* XMMediator.swift */,
+				C629506C1E7BB0B0005F65EC /* XMMediatorConfig.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
 		C65E4ACA1E6BC35500E09E44 = {
 			isa = PBXGroup;
 			children = (
@@ -92,9 +104,9 @@
 		C65E4AD51E6BC35500E09E44 /* XMMediator */ = {
 			isa = PBXGroup;
 			children = (
+				C62950671E7BB0B0005F65EC /* Sources */,
 				C65E4AEB1E6BC45700E09E44 /* Categories */,
 				C65E4AED1E6BC45700E09E44 /* DemoModule */,
-				C65E4AE81E6BC36900E09E44 /* Sources */,
 				C65E4AD61E6BC35500E09E44 /* AppDelegate.swift */,
 				C65E4AD81E6BC35500E09E44 /* ViewController.swift */,
 				C65E4ADA1E6BC35500E09E44 /* Main.storyboard */,
@@ -104,18 +116,6 @@
 				C62950651E7AC630005F65EC /* rule.json */,
 			);
 			path = XMMediator;
-			sourceTree = "<group>";
-		};
-		C65E4AE81E6BC36900E09E44 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				C65E4AE91E6BC37C00E09E44 /* XMMediator.swift */,
-				C65E4AF51E6BE30C00E09E44 /* XMMediatorConfig.swift */,
-				C65E4AF71E6BEFF200E09E44 /* XMMediator+Router.swift */,
-				C65E4AFB1E6C186300E09E44 /* XMMediator+Shared.swift */,
-				C629505D1E792378005F65EC /* URL+XMMediator.swift */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 		C65E4AEB1E6BC45700E09E44 /* Categories */ = {
@@ -287,18 +287,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C629505E1E792378005F65EC /* URL+XMMediator.swift in Sources */,
 				C62950641E7ABA67005F65EC /* Target_B.swift in Sources */,
 				C65E4AF21E6BC5D600E09E44 /* Target_A.swift in Sources */,
-				C65E4AFC1E6C186300E09E44 /* XMMediator+Shared.swift in Sources */,
-				C65E4AF61E6BE30C00E09E44 /* XMMediatorConfig.swift in Sources */,
-				C65E4AF81E6BEFF200E09E44 /* XMMediator+Router.swift in Sources */,
-				C65E4AEA1E6BC37C00E09E44 /* XMMediator.swift in Sources */,
+				C629506F1E7BB0B0005F65EC /* XMMediator+Shared.swift in Sources */,
 				C62950621E7AB999005F65EC /* XMMediator+B.swift in Sources */,
+				C62950701E7BB0B0005F65EC /* XMMediator.swift in Sources */,
+				C62950711E7BB0B0005F65EC /* XMMediatorConfig.swift in Sources */,
 				C65E4AF41E6BC64400E09E44 /* A_viewcontroller.swift in Sources */,
 				C65E4AD91E6BC35500E09E44 /* ViewController.swift in Sources */,
+				C629506E1E7BB0B0005F65EC /* XMMediator+Router.swift in Sources */,
 				C65E4AD71E6BC35500E09E44 /* AppDelegate.swift in Sources */,
 				C65E4AF01E6BC48B00E09E44 /* XMMediator+A.swift in Sources */,
+				C629506D1E7BB0B0005F65EC /* URL+XMMediator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
