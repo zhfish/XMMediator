@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    The mediator for modularization in your iOS Swift Project,Base CTMediator
                    DESC
 
   s.homepage     = "https://github.com/zhfish/XMMediator"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhfish/XMMediator", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhfish/XMMediator.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

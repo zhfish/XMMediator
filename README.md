@@ -1,4 +1,7 @@
 # XMMediator
+============
+[![CocoaPods](https://img.shields.io/cocoapods/v/XMMediator.svg)](https://github.com/zhfish/XMMediator)
+[![Build Status](https://travis-ci.org/zhfish/XMMediator.svg?branch=master)](https://travis-ci.org/zhfish/XMMediator) 
 ## 概述
 基本思想来源于[CTMediator](https://github.com/casatwy/CTMediator)，以Target-Action方式做模块间的解耦。  
 基于此，添加了带规则的URLRoute方式，保证不会被外部随意调用，也免去了需要注册的麻烦
